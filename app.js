@@ -10,12 +10,12 @@ console.log('hello world');
 
 // collection of key and property is called object;
 
-const obj = {
-    firstName: 'Muhammad fahad',
-    age: '20',
-    email: 'fahadgraphic.pk@email.com',
-    isloggedin: 'false'
-}
+// const obj = {
+//     firstName: 'Muhammad fahad',
+//     age: '20',
+//     email: 'fahadgraphic.pk@email.com',
+//     isloggedin: 'false'
+// }
 
 // console.log(obj);
 // obj.firstName = 'abdul jabbar';
@@ -25,13 +25,13 @@ const obj = {
 // delete obj.firstName
 // console.log(obj)
 
-const greet = function(){
-    console.log('hello world');
-    return 'return hello world'
-}
+// const greet = function(){
+//     console.log('hello world');
+//     return 'return hello world'
+// }
 
-greet()
-console.log(greet());
+// greet()
+// console.log(greet());
 
 
 // const object = {
@@ -48,18 +48,40 @@ console.log(greet());
 // console.log(object.email);
 
 
-const username = document.querySelector('#name');
-const email = document.querySelector('#email');
-const city = document.querySelector('#city');
-const age = document.querySelector('#age');
+// const username = document.querySelector('#name');
+// const email = document.querySelector('#email');
+// const city = document.querySelector('#city');
+// const age = document.querySelector('#age');
 
-function getvalue(){
-    const obj= {
-        username: username.value,
-        email: email.value,
-        city: city.value,
-        age: age.value
+// function getvalue(){
+//     const obj= {
+//         username: username.value,
+//         email: email.value,
+//         city: city.value,
+//         age: age.value
 
-    }
-    console.log(obj);
-}
+//     }
+//     console.log(obj);
+// }
+
+
+
+
+
+// NESTED OBJECT 
+
+
+// const nestedobj={
+//     names: {
+//         firstPosition:['fahad' , 'hammad' , 'jabbar' , 'mohsin'],
+//         secondPosition:[{
+//             names: ['faizan' , 'imran']
+//         }, {
+//             names: [{names: ['hammad']}]
+//         }]
+//     }
+// }
+
+// console.log(nestedobj.names.secondPosition[1].names[0].names[0]);
+// console.log(nestedobj.names.secondPosition[0].names[1])
+// console.log(nestedobj.names.firstPosition[2])
